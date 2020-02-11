@@ -1,4 +1,5 @@
-from diskspace import *
+#import diskspace
+from diskspace.diskspace import subprocess_check_output, print_tree, show_space_list , bytes_to_readable
 import unittest
 import os
 import subprocess
